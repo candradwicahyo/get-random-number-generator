@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <title>get random number generator</title>
+</head>
+<body class="bg-primary">
+
+  <div class="container my-4">
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+
+        <div class="bg-white p-4 rounded shadow-sm">
+          
+          <h1 class="fw-normal">Get Random Number Generator</h1>
+          <p class="fw-light">
+            program ini dibuat dengan menggunakan bahasa pemrograman javascript. program ini akan mengenerate angka acak sesuai isi inputan dibawah
+          </p>
+          
+          <div class="d-flex justify-content-between align-items-center flex-wrap">
+            <div class="input-wrapper">
+              <label for="min" class="fw-light form-label">Min</label>
+              <input type="number" id="min" class="form-control py-2 px-3 mb-3 min" placeholder="min" autocomplete="off" value="0">
+            </div>
+            <div class="input-wrapper">
+              <label for="max" class="fw-light form-label">Max</label>
+              <input type="number" id="max" class="form-control py-2 px-3 mb-3 max" placeholder="max" autocomplete="off" value="10">
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-md-8 mx-auto">
+              
+              <div class="card mb-3">
+                <div class="card-body p-5">
+                  <div class="text-center">
+                    <h1 class="fw-bold text-primary number">0</h1>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="d-flex justify-content-center align-items-center">
+                <button class="btn btn-primary py-2 px-3 w-100 rounded-1 generate">Generate</button>
+              </div>
+              
+            </div>
+          </div>
+          
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
